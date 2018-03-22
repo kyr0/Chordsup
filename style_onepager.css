@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+
+
+
+.fade
+{
+        opacity:1;
+}
+.fade:hover
+{
+        opacity:0.5;
+}
+
+
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+
+
+
+.jumbotron {
+    font-family: Montserrat, sans-serif;
+}
+
+.jumbotron:hover{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+.bg-1{
+background-color: #392E36;
+	color: aliceblue;
+}
+
+.bg-2{
+background-color: #B3BD8D;
+	color: aliceblue;
+	padding: 20px 0 20px 0;
+}
+
+
+.logos{
+	padding: 10px 10px;
+}
+.form-group{
+	
+}
+.form-control {
+
+}
+.jumbotron {
+color: aliceblue;
+background-color: #392E36;
+margin-bottom: 0px;
+}
+
+
+.logo-small {
+    color: #F4A200;
+ 
+}
+.logo-big {
+    color: #f4511e;
+    font-size: 70px;
+	padding: 10px;
+}
+.affix {
+      top: 0;
+      width: 100%;
+	padding-top: 10px;
+	z-index: 100;
+  }
+
+.list-group-item{
+	background-color: transparent;
+}
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+.panel-heading {
+	color: #000 !important;	
+    background-color: #eca1a6!important;
+    padding: 5px 5px ;
+	font-family: Roboto, Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+		 
+}
+
+.panel{
+	padding: 11px 11px  11px 10px;;
+	margin:10px;
+	line-height: 200%;
+	font-family: Lato, Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+	
+}
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+

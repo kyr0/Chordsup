@@ -1,6 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 
+.title{
+	font-size: 100px;
+	font-weight: 900;
+}
+
+
 
 .bg-1{
 	background: #bdcebe;
@@ -52,3 +58,11 @@ background-image: url(bg1.png);
 #progression{
 	display: none;
 	}
+
+.column {
+    -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 3; /* Firefox */
+    columns: 100px 3;
+	column-rule: thin;
+	column-rule-color: blanchedalmond;
+}
